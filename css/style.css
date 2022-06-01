@@ -1,0 +1,108 @@
+/*web gral*/
+body{
+    background-color: rgba(240, 195, 237, 0.363);
+    font-family: 'Kanit', sans-serif;
+    margin: 1px;
+}
+/*contenedor gral*/
+.main{
+    max-width: 100%;
+    border: 1px solid black;
+    display: grid;
+
+    grid-template-areas: 
+    "header"
+    "nav"
+    "section"
+    "section"
+    "footer"
+    ;
+}
+
+@media (max-width: 480px) {
+
+    .main {
+        grid-template-areas: 
+        "header header"
+        "nav section"
+        "nav section"
+        "footer footer"
+    }
+}
+/*comeinza header*/
+header{
+    grid-area: header;
+    margin: none;
+    padding: none;
+    text-align: center;
+    background-color: blueviolet;
+
+}
+.headerMarca2{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+}
+/*comeinza nav*/
+nav{
+    grid-area: nav;
+    background-color: rgba(169, 98, 236, 0.445);
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.navMenu{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navMenudos{
+    display: inline;
+    padding: 87px;
+}
+/*comeinza section*/
+section{
+    margin: 20px;
+    grid-area: section;
+}
+.sectionPrincipal{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+}
+
+
+
+/*comeinza footer*/
+footer{
+    grid-area: footer;
+    background-color: rgb(243, 181, 243);
+  
+
+}
+#footerPie{
+
+    list-style-image: url(../img/vineta.png);  
+    display: flex;
+    justify-content: space-around;
+}   
+
+iframe{
+    width: 400px;
+    height: 300px;
+}
+.mapa{
+    display: flex;
+    justify-content: space-between;
+}
+.perfilmascotas{
+    display: grid;
+    grid-template-areas: "Pimagen" "caracteristicas";
+    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;   
+}
+
