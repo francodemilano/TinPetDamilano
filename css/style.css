@@ -35,13 +35,14 @@ header{
     margin: none;
     padding: none;
     text-align: center;
-    background-color: blueviolet;
+    background-image: linear-gradient(to left, rgb(214, 80, 214) , rgb(236, 181, 236));
 
 }
 .headerMarca2{
     color: black;
-    font-size: 50px;
+    font-size: 3rem;
     text-decoration: none;
+    
 }
 /*comeinza nav*/
 nav{
@@ -52,15 +53,12 @@ nav{
     display: flex;
 }
 
-.navMenu{
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
+
 .navMenudos{
     display: inline;
     padding: 87px;
+    list-style-type: none;
+    text-decoration: none;
 }
 /*comeinza section*/
 section{
@@ -69,11 +67,20 @@ section{
 }
 .sectionPrincipal{
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: column ;
     justify-content: space-around;
 }
 
-
+.sectionDosPerros :hover{
+   height: 300px;
+   transition: heigth 2s;
+   
+}
+.card{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+}
 
 /*comeinza footer*/
 footer{
@@ -96,13 +103,5 @@ iframe{
 .mapa{
     display: flex;
     justify-content: space-between;
-}
-.perfilmascotas{
-    display: grid;
-    grid-template-areas: "Pimagen" "caracteristicas";
-    grid-template-columns: 6fr 6fr;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 1px;
-    grid-row-gap: 1px;   
 }
 

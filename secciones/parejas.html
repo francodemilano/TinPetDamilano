@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
      <title>Parejas</title>
 </head>
 
@@ -21,44 +24,106 @@
                 <H1 class="headerMarca2">TINPET</a></H1>
             </div>             
         </header>
-        <nav>
-            <div>
-                <ul class="navMenuPadre">
-                    <li class="navMenudos"><a href="../index.html">INICIO</a></li>
-                    <li class="navMenudos"><a href="./registro.html">REGISTRO</a></li>
-                    <li class="navMenudos"><a href="./parejas.html">PAREJAS</a></li>
-                    <li class="navMenudos"><a href="./guarderias.html">GUARDERIAS</a></li>
-                    <li class="navMenudos"><a href="./citaDeJuegos.html">CITAS DE JUEGOS</a></li>
-                </ul>
-             </div>  
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">PRINCIPAL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="parejas.html">PAREJAS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="citaDeJuegos.html">CITA DE JUEGOS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      CONTACTO
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="contactos.html">MAIL</a></li>
+                      <li><a class="dropdown-item" href="contactos.html">TELEFONO</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="contactos.html">REDES SOCIALES</a></li>
+                    </ul>
+                  </li>
+                 </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Busqueda</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     <section class="perfilmascotas"> <!--datos de perfil de mascotas-->
-        <div class="Pimagen">
-            <img src="../img/firu.jpg" alt="firu" width="200" height="200">
-        </div>
-        <div class="caracteristicas">
-            <ul>
-                <li>Nombre: Firulais</li>
-                <li>Sexo: Macho</li>
-                <li>Raza: Bichon</li>
-                <li>Edad: 10</li>
-                <li>Calificacion: 5</li>
-                <li>Contacto</li>
+
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="../img/firu.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FIRULAIS</h5>
+              <p class="card-text">Biyon muy sociable. Macho, 10 años.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">MACHO</li>
+              <li class="list-group-item">BICHON FRISE</li>
+              <li class="list-group-item">10 AÑOS</li>
             </ul>
-        </div>
-        <div class="Pimagen">
-            <img src="../img/yorkshire susana.jpg" alt="susi" width="200" height="200">
-        </div>
-        <div class="caracteristicas">
-            <ul>
-                <li>Nombre: Susana</li>
-                <li>Sexo: Hembra</li>
-                <li>Raza: yorkshire</li>
-                <li>Edad: 5</li>
-                <li>Calificacion: 4</li>
-                <li>Contacto</li>
+            <div class="card-body">
+              <a href="#" class="card-link">MATCH</a>
+              <a href="#" class="card-link">NEXT</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../img/yorkshire susana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SUSANA</h5>
+              <p class="card-text">YORKSHIRE, hembra, 4 años. .</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HEMBRA</li>
+              <li class="list-group-item">YORKSHIRE</li>
+              <li class="list-group-item">4 AÑOS</li>
             </ul>
-        </div>
+            <div class="card-body">
+              <a href="#" class="card-link">MATCH</a>
+              <a href="#" class="card-link">NEXT</a>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/Galgo afgano zaida.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ZAIDA</h5>
+                  <p class="card-text">Galgo Afgano, hembra, alto pedigree, hija de campeones. unica!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HEMBRA</li>
+                  <li class="list-group-item">GALGO AFGANO</li>
+                  <li class="list-group-item">2 AÑOS</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">MATCH</a>
+                  <a href="#" class="card-link">NEXT</a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/DORCO.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">DORCO</h5>
+                      <p class="card-text">American bully, amistoso, fuerte 100% puro</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">MACHO</li>
+                      <li class="list-group-item">AMERICAN BULLY</li>
+                      <li class="list-group-item">1 AÑO</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">MATCH</a>
+                      <a href="#" class="card-link">NEXT</a>
+                    </div>
+          </div>
+
     </section>
        
     <footer>
@@ -77,7 +142,8 @@
       
     </footer>
     </div>
-
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 
 
