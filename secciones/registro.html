@@ -61,53 +61,61 @@
             </div>
           </nav>
     <section class="formulario">
-        <div>
-            <form action="#">
-            <h2>Registro</h2>
-            <div>
-                <label for="nombre">nombre completo:</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for="correo">mail</label>
-                <input type="email" name="mail" id=""required>
-            </div>
-            <div>
-                <label for="mascota">mascota</label>
-                <select name="tipo">
-                    <option value="opcion1">Perro</option>
-                    <option value="opcion1">Gato</option>
-                    <option value="opcion1">Pez</option>
-                    <option value="opcion1">Conejo</option>
-                    <option value="opcion1">Iguana</option>
-                </select> 
-            </div>
-            <div>
-                <label for="raza"></label>raza
-                <input type="text">
-            </div>
-            <div>
-                <label for="sexo"></label>Sexo
-                <select name="tipo">
-                    <option value="opcion1">Macho</option>
-                    <option value="opcion1">Hembra</option>
-                </select> 
-            </div>
-            <div>
-                <label for="usuario">usuario</label>
-                <input type="text">
-            </div>
-    
-            <div>
-                <label for="clave">clave</label>   
-                <input type="password" name="password" id="">
-            </div>
-    
-            <div>
-                <button type="submit">enviar</button>
-            </div>
-        </form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
         </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Domicilio</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provincia</label>
+          <select id="inputState" class="form-select">
+            <option selected>Seleccionar</option>
+            <option>Cordoba</option>
+            <option>Mendoza</option>
+            <option>Santa Fe</option>
+            <option>Stgo del Estero</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">C.P</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Validar
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Registro</button>
+        </div>
+      </form>
 
     </section>
     <footer>
