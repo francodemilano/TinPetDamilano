@@ -1,0 +1,14 @@
+nav{
+    grid-area: nav;
+    background-color: rgba(169, 98, 236, 0.445);
+    width: 100%;
+    text-align: center;
+    display: flex;
+
+    .navMenudos{
+    display: inline;
+    padding: 87px;
+    list-style-type: none;
+    text-decoration: none;
+}
+}

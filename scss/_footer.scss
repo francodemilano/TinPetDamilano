@@ -1,0 +1,21 @@
+footer{
+    grid-area: footer;
+    background-color: rgb(243, 181, 243);
+  
+
+}
+#footerPie{
+
+    list-style-image: url(../img/vineta.png);  
+    display: flex;
+    justify-content: space-around;
+}   
+
+iframe{
+    width: 400px;
+    height: 300px;
+}
+.mapa{
+    display: flex;
+    justify-content: space-between;
+}

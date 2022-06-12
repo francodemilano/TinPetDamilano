@@ -1,0 +1,31 @@
+section{
+    margin: 20px;
+    grid-area: section;
+}
+.sectionPrincipal{
+    display: flex;
+    flex-wrap: column ;
+    justify-content: space-around;
+}
+
+.sectionDosPerros :hover{
+   height: 300px;
+   transition: heigth 2s;
+   
+}
+
+.card{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+.perfilmascotas{
+    display: flex;
+    flex: column;
+
+}
