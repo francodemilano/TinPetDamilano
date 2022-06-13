@@ -1,5 +1,5 @@
 body {
-  background-color: #d395cf5d;
+  background-color: #f3c2f05d;
   font-family: 'Kanit', sans-serif;
   margin: 1px;
 }
@@ -9,19 +9,12 @@ body .main {
   border: 1px solid black;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header"
- "nav"
- "section"
- "section"
- "footer";
+      grid-template-areas: "header" "nav" "section" "section" "footer";
 }
 
 @media (max-width: 480px) {
   body .main {
-        grid-template-areas: "header header"
- "nav section"
- "nav section"
- "footer footer";
+        grid-template-areas: "header header" "nav section" "nav section" "footer footer";
   }
 }
 
@@ -64,13 +57,12 @@ nav .navMenudos {
 
 section {
   margin: 20px;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  grid-area: section;
+  -webkit-box-flex: direction;
+      -ms-flex: direction;
+          flex: direction;
 }
 
-section .sectionPrincipal {
+section .sectionCentroIndex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,6 +73,13 @@ section .sectionPrincipal {
 }
 
 section .sectionDosPerros :hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: column;
+      flex-wrap: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   height: 300px;
   -webkit-transition: heigth 2s;
   transition: heigth 2s;

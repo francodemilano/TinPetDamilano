@@ -1,14 +1,17 @@
 section{
     margin: 20px;
-    grid-area: section;
+    flex: direction;
 
-        .sectionPrincipal{
+        .sectionCentroIndex{
             display: flex;
             flex-wrap: column ;
             justify-content: space-around;
         }
 
         .sectionDosPerros :hover{
+            display: flex;
+            flex-wrap: column ;
+            justify-content: space-around;
             height: 300px;
             transition: heigth 2s;
    
