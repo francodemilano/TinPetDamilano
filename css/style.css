@@ -26,8 +26,8 @@ body .main {
 }
 
 header {
-  grid-row: 1;
-  grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: header;
   width: auto;
   height: 300px;
@@ -44,8 +44,8 @@ header .headerMarca2 {
 }
 
 nav {
-  grid-row: 2;
-  grid-column: 1;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: nav;
   background-color: rgba(169, 98, 236, 0.445);
   width: 100%;
@@ -55,37 +55,35 @@ nav {
   display: flex;
 }
 
-
-     .navMenudos {
-        display: inline;
-        padding: 87px;
-        list-style-type: none;
-        text-decoration: none;
+nav .navMenudos {
+  display: inline;
+  padding: 87px;
+  list-style-type: none;
+  text-decoration: none;
 }
-
 
 section {
   margin: 20px;
-  grid-row: 3;
-   grid-column: 1;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
   grid-area: section;
-
-
-      .sectionPrincipal {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -ms-flex-wrap: column;
-          flex-wrap: column;
-          -ms-flex-pack: distribute;
-          justify-content: space-around;
-                                }
-
-      .sectionDosPerros :hover {
-          height: 300px;
-          -webkit-transition: heigth 2s;
-          transition: heigth 2s;
 }
+
+section .sectionPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: column;
+      flex-wrap: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .sectionDosPerros :hover {
+  height: 300px;
+  -webkit-transition: heigth 2s;
+  transition: heigth 2s;
 }
 
 .card {
@@ -111,8 +109,8 @@ section {
 }
 
 footer {
-  grid-row: 5;
-  grid-column: 1;
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
   grid-area: footer;
   background-color: #f3b5f3;
 }
