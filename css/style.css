@@ -9,18 +9,25 @@ body .main {
   border: 1px solid black;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header" "nav" "section" "section" "footer";
+      grid-template-areas: "header"
+ "nav"
+ "section"
+ "section"
+ "footer";
 }
 
 @media (max-width: 480px) {
   body .main {
-        grid-template-areas: "header header" "nav section" "nav section" "footer footer";
+        grid-template-areas: "header header"
+ "nav section"
+ "nav section"
+ "footer footer";
   }
 }
 
 header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
+  grid-row: 1;
+  grid-column: 1;
   grid-area: header;
   width: auto;
   height: 300px;
@@ -37,8 +44,8 @@ header .headerMarca2 {
 }
 
 nav {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
+  grid-row: 2;
+  grid-column: 1;
   grid-area: nav;
   background-color: rgba(169, 98, 236, 0.445);
   width: 100%;
@@ -57,9 +64,8 @@ nav .navMenudos {
 
 section {
   margin: 20px;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
+  grid-row: 3;
+   grid-column: 1;
   grid-area: section;
 }
 
@@ -102,8 +108,8 @@ section .sectionDosPerros :hover {
 }
 
 footer {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
+  grid-row: 5;
+  grid-column: 1;
   grid-area: footer;
   background-color: #f3b5f3;
 }
