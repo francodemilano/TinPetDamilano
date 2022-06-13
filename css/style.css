@@ -29,6 +29,10 @@ header {
   text-align: center;
   background-image: -webkit-gradient(linear, right top, left top, from(#d650d6), to(#ecb5ec));
   background-image: linear-gradient(to left, #d650d6, #ecb5ec);
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
 }
 
 header .headerMarca2 {
@@ -46,6 +50,10 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+  grid-column: 1;
 }
 
 nav .navMenudos {
@@ -112,6 +120,10 @@ footer {
   -ms-grid-column: 1;
   grid-area: footer;
   background-color: #f3b5f3;
+  -ms-grid-row: 5;
+  grid-row: 5;
+  -ms-grid-column: 1;
+  grid-column: 1;
 }
 
 footer #footerPie {

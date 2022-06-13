@@ -4,6 +4,8 @@ nav{
     width: 100%;
     text-align: center;
     display: flex;
+    grid-row: 2;
+    grid-column: 1;
 
     .navMenudos{
     display: inline;
