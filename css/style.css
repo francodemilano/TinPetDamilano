@@ -55,34 +55,37 @@ nav {
   display: flex;
 }
 
-nav .navMenudos {
-  display: inline;
-  padding: 87px;
-  list-style-type: none;
-  text-decoration: none;
+
+     .navMenudos {
+        display: inline;
+        padding: 87px;
+        list-style-type: none;
+        text-decoration: none;
 }
+
 
 section {
   margin: 20px;
   grid-row: 3;
    grid-column: 1;
   grid-area: section;
-}
 
-section .sectionPrincipal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: column;
-      flex-wrap: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
 
-section .sectionDosPerros :hover {
-  height: 300px;
-  -webkit-transition: heigth 2s;
-  transition: heigth 2s;
+      .sectionPrincipal {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: column;
+          flex-wrap: column;
+          -ms-flex-pack: distribute;
+          justify-content: space-around;
+                                }
+
+      .sectionDosPerros :hover {
+          height: 300px;
+          -webkit-transition: heigth 2s;
+          transition: heigth 2s;
+}
 }
 
 .card {
