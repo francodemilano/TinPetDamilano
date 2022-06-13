@@ -2,17 +2,17 @@ section{
     margin: 20px;
     grid-area: section;
 
-.sectionPrincipal{
-    display: flex;
-    flex-wrap: column ;
-    justify-content: space-around;
-}
+        .sectionPrincipal{
+            display: flex;
+            flex-wrap: column ;
+            justify-content: space-around;
+        }
 
-.sectionDosPerros :hover{
-   height: 300px;
-   transition: heigth 2s;
+        .sectionDosPerros :hover{
+            height: 300px;
+            transition: heigth 2s;
    
-}
+        }
 }
 .card{
     margin: 20px;
