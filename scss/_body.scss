@@ -27,20 +27,22 @@ body{
     }
 }
 $encabezados: (
-    l:#f384f3,
-    m:#5a3e5a,
-    s:#161416
+    xl:#f384f3,
+    l:#5a3e5a,
+    m:#161416,
+    s:black,
 
 );
+$xl: map-get($encabezados, xl);
 $l: map-get($encabezados, l);
 $m: map-get($encabezados, m);
 $s: map-get($encabezados, s);
 
 h1{
-    color:$l;
+    color:$xl;
 }
 h2{
-    color:$m;
+    color:$l;
 }
 h3{
     color:$m;
