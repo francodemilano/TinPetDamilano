@@ -26,3 +26,25 @@ body{
             "footer footer" }
     }
 }
+$encabezados: (
+    l:#f384f3,
+    m:#5a3e5a,
+    s:#161416
+
+);
+$l: map-get($encabezados, l);
+$m: map-get($encabezados, m);
+$s: map-get($encabezados, s);
+
+h1{
+    color:$l;
+}
+h2{
+    color:$m;
+}
+h3{
+    color:$m;
+}
+h4{
+    color:$s;
+}
