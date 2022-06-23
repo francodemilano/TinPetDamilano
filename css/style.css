@@ -34,7 +34,7 @@ h4 {
 header {
   grid-area: header;
   width: auto;
-  height: auto;
+  height: 300px;
   margin: 0%;
   padding: 0%;
   text-align: center;
