@@ -1,5 +1,6 @@
 section{
-    margin: 20px;
+    background-color: #f8d9f8;
+    margin: auto;
     flex: direction;
 
         .sectionCentroIndex{
@@ -15,6 +16,9 @@ section{
             height: 300px;
             transition: heigth 2s;
    
+        }
+        .formulario{
+            margin: 20px;
         }
 }
 .card{
