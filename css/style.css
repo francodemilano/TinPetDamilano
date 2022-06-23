@@ -34,7 +34,7 @@ h4 {
 header {
   grid-area: header;
   width: auto;
-  height: 300px;
+  height: auto;
   margin: 0%;
   padding: 0%;
   text-align: center;
@@ -42,9 +42,9 @@ header {
   grid-row: 1;
   grid-column: 1;
 }
-header .headerMarca2 {
-  color: black;
-  font-size: 3rem;
+header .imgCentral {
+  width: 480px;
+  height: 300px;
 }
 
 nav {
