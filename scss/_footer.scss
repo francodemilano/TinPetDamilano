@@ -3,13 +3,15 @@ footer{
     background-color: rgb(243, 181, 243);
     grid-row: 5;
     grid-column: 1;
-    list-style-type: none;
     text-decoration: none;
   
-
+.futer{
+    text-decoration: none;
+}
 
 .footerPie{
     text-decoration: none;
+    list-style-type: none;
     list-style-image: url(../img/vineta.png);  
     display: flex;
     justify-content: space-around;

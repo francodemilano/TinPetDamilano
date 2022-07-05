@@ -67,7 +67,6 @@ nav .navMenudos {
 section {
   background-color: #f8d9f8;
   margin: auto;
-  flex: direction;
 }
 section .sectionCentroIndex {
   display: flex;
@@ -76,13 +75,18 @@ section .sectionCentroIndex {
 }
 section .sectionDosPerros :hover {
   display: flex;
-  flex-wrap: column;
+  flex-direction: row;
   justify-content: space-around;
   height: 300px;
   transition: heigth 2s;
 }
 section .formulario {
   margin: 20px;
+}
+section .imgEnBase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .card {
@@ -102,11 +106,14 @@ footer {
   background-color: rgb(243, 181, 243);
   grid-row: 5;
   grid-column: 1;
-  list-style-type: none;
+  text-decoration: none;
+}
+footer .futer {
   text-decoration: none;
 }
 footer .footerPie {
   text-decoration: none;
+  list-style-type: none;
   list-style-image: url(../img/vineta.png);
   display: flex;
   justify-content: space-around;
