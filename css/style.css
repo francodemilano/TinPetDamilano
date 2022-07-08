@@ -103,7 +103,7 @@ section .imgEnBase {
 }
 
 #carouselExampleIndicators {
-  width: 795px;
+  width: auto;
   height: 537px;
 }
 
