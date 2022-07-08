@@ -7,6 +7,14 @@ nav{
     grid-row: 2;
     grid-column: 1;
 
+    .navbar-brand{
+        color: #310957;
+    }
+    .nav-link{
+        color: #572486;
+    }
+
+
     .navMenudos{
     display: inline;
     padding: 50px;

@@ -57,6 +57,12 @@ nav {
   grid-row: 2;
   grid-column: 1;
 }
+nav .navbar-brand {
+  color: #310957;
+}
+nav .nav-link {
+  color: #572486;
+}
 nav .navMenudos {
   display: inline;
   padding: 50px;
@@ -96,6 +102,11 @@ section .imgEnBase {
   justify-content: space-around;
 }
 
+#carouselExampleIndicators {
+  width: 795px;
+  height: 537px;
+}
+
 .perfilmascotas {
   display: flex;
   flex: column;
@@ -117,4 +128,8 @@ footer .footerPie {
   list-style-image: url(../img/vineta.png);
   display: flex;
   justify-content: space-around;
+}
+footer .bajofondo {
+  text-decoration: none;
+  color: #310957;
 }/*# sourceMappingURL=style.css.map */
