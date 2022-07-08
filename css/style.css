@@ -112,6 +112,22 @@ section .imgEnBase {
   flex: column;
 }
 
+h1 {
+  color: #f384f3;
+}
+
+h2 {
+  color: #5a3e5a;
+}
+
+h3 {
+  color: #161416;
+}
+
+h4 {
+  color: black;
+}
+
 footer {
   grid-area: footer;
   background-color: rgb(243, 181, 243);
