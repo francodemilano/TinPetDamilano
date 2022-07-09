@@ -43,9 +43,10 @@ header {
   grid-row: 1;
   grid-column: 1;
 }
-header .imgCentral {
-  width: 480px;
-  height: 300px;
+header .logoPrimario {
+  width: 100%;
+  height: auto;
+  max-width: 480px;
 }
 
 nav {
@@ -86,10 +87,17 @@ section .sectionDosPerros :hover {
   height: 300px;
   transition: heigth 2s;
 }
-section .formulario {
+
+@media screen and (max-width: 600px) {
+  .ocultarImg {
+    display: none;
+  }
+}
+.formulario {
   margin: 20px;
 }
-section .imgEnBase {
+
+.imgEnBase {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
