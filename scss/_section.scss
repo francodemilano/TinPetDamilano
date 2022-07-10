@@ -17,19 +17,18 @@ section{
    
         }
         
-        }
-        @media screen and (max-width: 600px) {
-            .ocultarImg{
-            display:none;
+}
+@media screen and (max-width: 600px) {
+    .ocultarImg{
+    display:none;}
             }
-            }
-        .formulario{
-            margin: 20px;
+    .formulario{
+    margin: 20px;
         }
-        .imgEnBase{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+    .imgEnBase{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         }
 
 .card{
@@ -38,6 +37,8 @@ section{
     flex-direction: column;
     justify-content: space-around;
 }
+
+
 #carouselExampleIndicators{
     width: auto;
     height: 537px;
@@ -45,6 +46,12 @@ section{
 
 .perfilmascotas{
     display: flex;
-    flex: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
+}
+@media screen and (max-width: 600px) {
+    .perfilmascotas {
+        flex-direction: column;
+    }
 }
