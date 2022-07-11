@@ -141,12 +141,7 @@ section .cargaDatosBusqueda {
 }
 
 table {
-  width: 100%;
-  border: 1px solid #000;
-}
-
-tr, td {
-  width: 20%;
+  margin: auto;
   border: 1px solid #000;
 }
 
