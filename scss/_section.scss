@@ -17,12 +17,16 @@ section{
    
         }
         .cargaDatosBusqueda{
-            margin: 1rem;
+            
             display: flex;
             flex-flow: row wrap;
             justify-content: space-around;
         }   
-
+.solodatos{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+ }
 }
 .mapa{
     width: 360px;
