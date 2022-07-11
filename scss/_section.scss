@@ -16,8 +16,18 @@ section{
             transition: heigth 2s;
    
         }
-        
+        .cargaDatosBusqueda{
+            margin: 1rem;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }   
+
 }
+.mapa{
+    width: 360px;
+}
+
 @media screen and (max-width: 600px) {
     .ocultarImg{
     display:none;}
@@ -55,3 +65,14 @@ section{
         flex-direction: column;
     }
 }
+.citaDeJuegos{
+    margin: 1rem;
+}
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ tr, td {
+    width: 20%;
+    border: 1px solid #000;
+ }

@@ -1,28 +1,36 @@
 body {
-  background-color: #f3c2f05d;
-  font-family: 'Kanit', sans-serif;
-  margin: 1px; }
+  background-color: rgba(243, 194, 240, 0.3647058824);
+  font-family: "Kanit", sans-serif;
+  margin: 1px;
+}
+body .main {
+  background-color: rgba(243, 194, 240, 0.3647058824);
+  max-width: 100%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas: "header" "nav" "section" "section" "footer";
+}
+@media (max-width: 480px) {
   body .main {
-    background-color: #f3c2f05d;
-    max-width: 100%;
-    border: 1px solid black;
-    display: grid;
-    grid-template-areas: "header" "nav" "section" "section" "footer"; }
-  @media (max-width: 480px) {
-    body .main {
-      grid-template-areas: "header header" "nav section" "nav section" "footer footer"; } }
+    grid-template-areas: "header header" "nav section" "nav section" "footer footer";
+  }
+}
 
 h1 {
-  color: #f384f3; }
+  color: #f384f3;
+}
 
 h2 {
-  color: #5a3e5a; }
+  color: #5a3e5a;
+}
 
 h3 {
-  color: #161416; }
+  color: #161416;
+}
 
 h4 {
-  color: black; }
+  color: black;
+}
 
 header {
   grid-area: header;
@@ -31,13 +39,15 @@ header {
   margin: 0%;
   padding: 0%;
   text-align: center;
-  background-image: linear-gradient(to left, #d650d6, #ecb5ec);
+  background-image: linear-gradient(to left, rgb(214, 80, 214), rgb(236, 181, 236));
   grid-row: 1;
-  grid-column: 1; }
-  header .logoPrimario {
-    width: 100%;
-    height: auto;
-    max-width: 480px; }
+  grid-column: 1;
+}
+header .logoPrimario {
+  width: 100%;
+  height: auto;
+  max-width: 480px;
+}
 
 nav {
   grid-area: nav;
@@ -46,76 +56,118 @@ nav {
   text-align: center;
   display: flex;
   grid-row: 2;
-  grid-column: 1; }
-  nav .navbar-brand {
-    color: #310957; }
-  nav .nav-link {
-    color: #572486; }
-  nav .navMenudos {
-    display: inline;
-    padding: 50px;
-    list-style-type: none;
-    text-decoration: none; }
+  grid-column: 1;
+}
+nav .navbar-brand {
+  color: #310957;
+}
+nav .nav-link {
+  color: #572486;
+}
+nav .navMenudos {
+  display: inline;
+  padding: 50px;
+  list-style-type: none;
+  text-decoration: none;
+}
 
 section {
   background-color: #f8d9f8;
-  margin: auto; }
-  section .sectionCentroIndex {
-    display: flex;
-    flex-wrap: column;
-    justify-content: space-around; }
-  section .sectionDosPerros :hover {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 300px;
-    transition: heigth 2s; }
+  margin: auto;
+}
+section .sectionCentroIndex {
+  display: flex;
+  flex-wrap: column;
+  justify-content: space-around;
+}
+section .sectionDosPerros :hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+  transition: heigth 2s;
+}
+section .cargaDatosBusqueda {
+  margin: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.mapa {
+  width: 360px;
+}
 
 @media screen and (max-width: 600px) {
   .ocultarImg {
-    display: none; } }
-
+    display: none;
+  }
+}
 .formulario {
-  margin: 20px; }
+  margin: 20px;
+}
 
 .imgEnBase {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .card {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 #carouselExampleIndicators {
   width: auto;
-  height: 537px; }
+  height: 537px;
+}
 
 .perfilmascotas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 @media screen and (max-width: 600px) {
   .perfilmascotas {
-    flex-direction: column; } }
+    flex-direction: column;
+  }
+}
+.citaDeJuegos {
+  margin: 1rem;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+tr, td {
+  width: 20%;
+  border: 1px solid #000;
+}
 
 footer {
   grid-area: footer;
-  background-color: #f3b5f3;
+  background-color: rgb(243, 181, 243);
   grid-row: 5;
   grid-column: 1;
-  text-decoration: none; }
-  footer .futer {
-    text-decoration: none; }
-  footer .footerPie {
-    text-decoration: none;
-    list-style-type: none;
-    list-style-image: url(../img/vineta.png);
-    display: flex;
-    justify-content: space-around; }
-  footer .bajofondo {
-    text-decoration: none;
-    color: #310957; }
+  text-decoration: none;
+}
+footer .futer {
+  text-decoration: none;
+}
+footer .footerPie {
+  text-decoration: none;
+  list-style-type: none;
+  list-style-image: url(../img/vineta.png);
+  display: flex;
+  justify-content: space-around;
+}
+footer .bajofondo {
+  text-decoration: none;
+  color: #310957;
+}/*# sourceMappingURL=style.css.map */

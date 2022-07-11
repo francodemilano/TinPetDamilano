@@ -60,56 +60,73 @@
             </div>
     </nav>
     <section>
-            <div>
-                <h2>Organiza cita de juegos en plazas o parques</h2>
-        
-            </div> 
-            
-                <div>
-                    <form action="#">
-                    <h3>Convocar</h3>
-                    <div>
-                        <label for="Lugar">lugar:</label>
-                        <input type="text">
-                    </div>
-                    <br>
-                    <div>
-                        <label for="dia">fecha</label>
-                        <input type="date" name="fecha" id="">
-                    </div>
-                    <br>
-                    <div>
-                        <label for="hora">Horario estimado</label>
-                        <select name="Horario">
-                            <option value="opcion1">Mañana</option>
-                            <option value="opcion1">Mediodia</option>
-                            <option value="opcion1">Siesta</option>
-                            <option value="opcion1">Tarde</option>
-                            <option value="opcion1">Noche</option>
-                        </select> 
-                    </div>
-                    <br>
-                    <div>
-                        <button type="submit">enviar</button>
-                    </div>
-          
+      <div class="cargaDatosBusqueda">
+        <div class="SoloDatos">
+          <div>
+            <h2>Organiza cita de juegos en plazas o parques</h2>
+
+          </div> 
+    
+           <div>
+            <form action="#">
+            <h3>Convocar</h3>
+          <div>
+            <label for="Lugar">lugar:</label>
+            <input type="text">
+          </div>
+                              <br>
+          <div>
+              <label for="dia">fecha</label>
+              <input type="date" name="fecha" id="">
+          </div>
+                              <br>
+           <div>
+                <label for="hora">Horario estimado</label>
+                <select name="Horario">
+                    <option value="opcion1">Mañana</option>
+                    <option value="opcion1">Mediodia</option>
+                    <option value="opcion1">Siesta</option>
+                    <option value="opcion1">Tarde</option>
+                    <option value="opcion1">Noche</option>
+                </select> 
+            </div>
+                             <br>
+           <div>
+                <button type="submit">enviar</button>
+           </div>
+           <div>
                 <h2>Busqueda de citas organizadas</h2>
-            <table>
-                <tr>
-                    <td>Convocante</td>
+                <table>
+                  <tr>
+                    <td>Lugar</td>
                     <td>Zona</td>
                     <td>Fecha</td>
-                    <td>Horario Estimado</td>
-                </tr>
-                <tr>
-                    <td>Cruela de Vil</td>
-                    <td>Transilvania</td>
-                    <td>Martes 13</td>
-                    <td>Noche</td>
-                </tr>
-            </table>
-         <input type="checkbox" name="Voy" id="voy">  
-     
+                    <td>Horario</td>
+                 </tr>
+                  <tr>
+                    <td><label for="Lugar"></label>
+                      <input type="text"></td>
+                    <td><label for="Zona"></label>
+                      <input type="text"></td>
+                    <td><label for="Fecha"></label>
+                      <input type="date" name="fecha" id="">
+                    <td><label for="Horario"></label>
+                      <input type="text"></td>
+                 </tr>
+
+                </table>
+                <br>
+                <div>
+                  <button type="submit">Buscar</button>
+             </div>
+            </div>
+        </div>
+              
+      </div>     
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13628.005605290273!2d-64.18332754999999!3d-31.358940550000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1657527925729!5m2!1sen!2sar" width="360" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>       
     </section>
     <footer>
           <div class="futer">
